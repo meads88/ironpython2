@@ -14,8 +14,7 @@
     <Features>$(Features);FEATURE_CODEDOM</Features>
     <Features>$(Features);FEATURE_CONFIGURATION</Features>
     <Features>$(Features);FEATURE_CTYPES</Features>
-    <!-- FEATURE_CUSTOM_TYPE_DESCRIPTOR disabled due to .NET 10 compatibility issues with ICustomTypeDescriptor reflection -->
-    <!-- This feature is only needed for WinForms/WPF designer integration, not needed for pyRevit runtime -->
+    <!-- FEATURE_CUSTOM_TYPE_DESCRIPTOR disabled for .NET 10 due to compatibility issues with ICustomTypeDescriptor -->
     <Features>$(Features);FEATURE_DBNULL</Features>
     <Features>$(Features);FEATURE_DRIVENOTFOUNDEXCEPTION</Features>
     <Features>$(Features);FEATURE_DYNAMIC_EXPRESSION_VISITOR</Features>
